@@ -12,7 +12,7 @@ $(document).ready(function(){
         
         
         $('p').click(function(){
-         $('p').addClass('line')
+         $(this).addClass('line')
         
       })
     })    
